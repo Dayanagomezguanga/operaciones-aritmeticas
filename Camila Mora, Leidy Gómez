@@ -1,0 +1,20 @@
+num_1=int(input("ingese num_1:"))
+num_2=int(input("ingrese num_2:"))
+
+
+if(num_2==0):
+     print("Dato  invalido:")
+     num_2=int(input("ingrese de nuevo el valor "))
+
+else:
+    pass
+num_3=(num_1 + num_2)
+
+D_suma=(num_1+num_2)
+D_resta=(num_1-num_2)
+D_division=(num_1/num_2)
+D_multiplicado=(num_1*num_2)
+print(f"El resultado de la suma es: {D_suma}")
+print(f"El resultado de la suma es: {D_resta}")
+print(f"El resultado de la suma es: {D_division}")
+print(f"El resultado de la suma es: {D_multiplicado}")
